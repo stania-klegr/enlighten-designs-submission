@@ -1,0 +1,139 @@
+
+/* all of this could be cleaned up/minimized, and commented, but im out of time */
+
+body, html {
+    background-color: white;
+    font-family: Quicksand, sans-serif;
+}
+
+
+#container{    
+    position: relative;
+    height: 50vh;
+    
+    background-image: url("assets/main-banner.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+#wave{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+
+h1{
+    color: #36413c;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+h2{
+    color: #36413c;
+    font-weight: 700;
+    font-size: 28px;
+    padding-left: 5%;
+
+}
+
+
+h3{    
+    color: #5e6e66;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+p {
+    color: #5e6e66;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+
+.centered{
+    text-align: center;
+    margin:0 auto;
+    width: 70ch;
+
+}
+
+
+@media (min-width: 1400px) {
+  .col { 
+    float: left;
+    width: 30%; 
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    border-radius: 20px;
+    margin-left: 2.2%;
+    margin-bottom: 5%;
+}
+    
+    .col img{
+        border-radius: 20px 20px 0px 0px; 
+
+    }
+}
+
+
+/* not quite finished */
+@media (max-width: 1401px) {
+
+.col{
+    /* height: 303px; */
+    clear: left;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    padding-left: 2%;
+
+}    
+    
+  .col p, .col h2{ 
+      padding-left: 2%;
+
+    }
+    
+    .col img{
+        display: block;
+        max-width: 40%;
+        width: auto;
+        height: auto;
+        
+        margin-right: 15px;
+        float: left;
+        clear: left;
+    }
+}
+
+#title{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  /* transform: translate(-50%, -50%); */
+
+  color: white;
+}
+
+#title{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+#titleSub{
+    position: inherit;
+    font-weight: 500;
+    font-size: 24px;
+}
+
